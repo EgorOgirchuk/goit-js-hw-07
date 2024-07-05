@@ -1,0 +1,20 @@
+ul,
+li {
+  list-style: none;
+}
+
+.gallery > li > img {
+  width: 360px;
+  height: 300px;
+}
+
+ul.gallery {
+  width: 1180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 38px 0px;
+}

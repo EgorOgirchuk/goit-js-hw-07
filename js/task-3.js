@@ -7,7 +7,7 @@ nameInput.addEventListener("input", (event) => {
   let inputedValue = nameInput.value;
   inputedValue = inputedValue.trim();
 
-  if (inputedValue == "") {
+  if (inputedValue === "") {
     nameOutput.innerHTML = "Anonymous";
   } else {
     nameOutput.innerHTML = inputedValue;

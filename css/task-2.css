@@ -3,18 +3,24 @@ li {
   list-style: none;
 }
 
-.gallery > li > img {
+li {
   width: 360px;
   height: 300px;
+  overflow: hidden;
 }
 
-ul.gallery {
-  width: 1180px;
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery {
+  width: 1128px;
+  background-color: #fff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;
-  flex-direction: row;
-  margin: 0 auto;
-  gap: 38px 0px;
+  padding: 0;
+  gap: 48px 24px;
+  margin: 100px 156px;
 }
